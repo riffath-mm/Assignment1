@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+
+<body>
+    <header>
+        <h3>Contact Us</h3>
+    </header>
+    <main>
+        <section>
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="index.html#About">About</a>
+                </li>
+                <li>
+
+                    <a href="index.html#Menu">Our Menu</a>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiLyKSmcAlklSWeGUgBbIBg8W2Pv-DHLjBqg&usqp=CAU"
+                alt="error loaded" />
+        </section>
+        <hr>
+        
+        <h3>Our Contact Form</h3>
+        <form action="action.php" method="Post">
+            <p>
+                <label for="FirstName">FirstName : </label>
+                <input type="text" name="FirstName" id="FirstName" placeholder="Enter Your Name" autocomplete="on"
+                    required>
+            </p>
+            <p>
+                <label for="LastName">LastName : </label>
+                <input type="text" name="LastName" id="LastName" placeholder="Enter Your Name" autocomplete="on"
+                    required>
+            </p>
+            <p>
+                <label for="Email">Email : </label>
+                <input type="email" name="email" id="Email" placeholder="Enter Your email" required>
+            </p>
+            <p>
+                <label for="Number">Enter Salary :</label> 
+                <input type="number" name="Number" id="number" placeholder="Enter Salary" required>
+            </p>
+            <p>
+                <label for="Phone no.">Enter Phone no. :</label> 
+                <input type="number" name="phone no." id="phone no." placeholder="Enter Phone no." required>
+            </p>
+            <p>
+                <label for="password">Enter Password :</label> 
+                <input type="password" name="password" id="password" placeholder="Enter Your Password" required>
+            </p>
+            <p>
+                <label for="state">Enter State:</label>
+                <select name="state" id="state">
+                    <option value="kashmir" selected>Kashmir</option>
+                    <option value="Jammu"> Jammu</option>
+                    <option value="canada">Canada</option>
+                    <option value="dehli">Dehli</option>
+                    <option value="other">Other</option>
+                </select>
+            </p>
+            <p>
+                <input type="radio" name="gender" id="male">
+                <label for="male">Male</label>
+
+                <input type="radio" name="gender" id="Female">
+                <label for="Female">FeMale</label>
+
+                <input type="radio" name="gender" id="other">
+                <label for="other">other</label>
+            </p>
+            <p>
+                <label for="checkbox">Do Uh Agree Our Terms And Conditions :</label>
+                <input type="checkbox" name="terms" id="checkbox">
+            </p>
+            <p>
+                <label for="Message">Your Message :</label> <br>
+                <textarea name="Message" id="Message" cols="20" rows="10" class="text"></textarea>
+            </p>
+            <p>
+                <button type="Send">Send</button>
+                <button type="Reset">Reset</button>
+
+            </p>
+            <hr>
+        
+            <section>
+                <h3>Our Location</h3>
+                <p><i> Jammu & Kashmir </i></p>
+                <p><i>Qamarwari main Chowk</i></p>
+
+                <pre>Phone : 111111</pre>
+            </section>
+            <hr>
+            <p>Copyright &copy; The Website</p>
+
+        </form>
+
+    </main>
+</body>
+
+</html>
